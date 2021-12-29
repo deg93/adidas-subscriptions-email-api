@@ -1,0 +1,7 @@
+logging:
+  level:
+    ROOT: INFO
+    es.davidenjuan.subscriptions.emailapi: INFO
+
+server:
+  port: 8080

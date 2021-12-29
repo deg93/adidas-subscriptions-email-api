@@ -1,0 +1,19 @@
+logging:
+  level:
+    ROOT: INFO
+    es.davidenjuan.subscriptions.emailapi: INFO
+
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+      
+server:
+  port: 8082
+
+application:
+  basic-auth:
+    user: system
+    password: cMq5VkWfWyfP27iHEECDdYst
+  send-grid:
+    api-key:
